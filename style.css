@@ -120,3 +120,21 @@ footer section{
     min-height: 0;
     gap: 10px;
 }
+
+@media screen and (max-width: 500px){
+    #intro{
+        display: flex;
+        flex-flow: column;
+    }
+
+    #intro div img{
+        height: 100%;
+        width: auto;
+    }
+
+    #intro #img{
+        min-height: 0;
+        height: auto;
+        order: -1;
+    }
+}
