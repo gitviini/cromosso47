@@ -97,6 +97,10 @@ p{
     line-height: 22px;
 }
 
+label{
+    translate: 0 -10px;
+}
+
 ul{
     padding: 15px 30px;
 }
